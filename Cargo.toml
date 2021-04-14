@@ -1,0 +1,53 @@
+[package]
+name = "rust-structs"
+version = "0.1.0"
+authors = ["shota-tsuji <shotatuzi@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "structs-2"
+path = "src/structs-2.rs"
+
+[[bin]]
+name = "structs-3"
+path = "src/structs-3.rs"
+
+[[bin]]
+name = "structs-4"
+path = "src/structs-4.rs"
+
+[[bin]]
+name = "structs-5"
+path = "src/structs-5.rs"
+
+[[bin]]
+name = "tuple-struct"
+path = "src/tuple-struct.rs"
+
+[[bin]]
+name = "rectangle-1"
+path = "src/rectangle-1.rs"
+
+[[bin]]
+name = "rectangle-2"
+path = "src/rectangle-2.rs"
+
+[[bin]]
+name = "rectangle-3"
+path = "src/rectangle-3.rs"
+
+[[bin]]
+name = "derived-1"
+path = "src/derived-1.rs"
+
+[[bin]]
+name = "methods-2"
+path = "src/methods-2.rs"
+
+[[bin]]
+name = "associated-function-1"
+path = "src/associated-function-1.rs"
